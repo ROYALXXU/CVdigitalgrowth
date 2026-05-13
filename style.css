@@ -1,0 +1,62 @@
+.fas fa-graduation-cap h2{
+   background-color: black;
+   font-display: auto;
+}
+
+
+
+
+.education-item {
+    display: flex; 
+    margin-bottom: 25px; 
+}
+ .edu-date {
+    flex-basis: 120px; 
+    flex-shrink: 0; 
+    margin-right: 25px;
+    text-align: right; 
+    color: #555;
+    font-size: 0.9em;
+    line-height: 1.3;
+    display: flex;
+}
+ .edu-date p {
+    margin: 0;
+    
+}
+
+
+ .edu-details {
+    flex-grow: 1;
+}
+ .edu-details h3 {
+    margin: 0 0 5px 0;
+    color: #333;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.edu-details p {
+    margin: 0;
+    font-size: 0.9em;
+    line-height: 1.5;
+    color: #666;
+}
+.edu-details .establishment {
+    font-weight: normal;
+    color: #333; 
+    margin-bottom: 5px;
+    font-size: 0.95em;
+}
+
+   .education-item{
+        flex-direction: column; 
+       .edu-date {
+        text-align: left; 
+        margin-right: 0;
+        margin-bottom: 5px; 
+        flex-basis: auto; 
+    }
+}
+    .edu-details h3 {
+        font-size: 1em;
+    }
