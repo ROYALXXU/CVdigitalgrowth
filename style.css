@@ -1,0 +1,10 @@
+h3{
+    color: white;
+    text-transform: uppercase;
+    background-color: black;
+}
+
+li{
+    padding: 10px;
+    margin-bottom: 5px;
+}
